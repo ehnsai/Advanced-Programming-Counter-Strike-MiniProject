@@ -71,7 +71,7 @@ void TestManager::testInvalidInput() {
     int result = manager->get_resualt();
     assert(result == 0 || result == 1 || result == 2);
 
-    cout << "testInvalidInput: (Expected logical fail — dead player)" << endl;
+    cout << "testInvalidInput: (Expected logical fail â€” dead player)" << endl;
 }
 
 void TestManager::testPlayerHealth() {
