@@ -1,7 +1,7 @@
 //#include <iostream>
 //using namespace std;
 //
-//// ò·«” ê—Â »—«? ·?”  œÊÿ—›Â
+//// Àú√°√á√ì ¬ê√ë√• √à√ë√á? √°?√ì√ä √è√¶√ò√ë√ù√•
 //class WeaponNode {
 //public:
 //    int weaponID;
@@ -14,16 +14,16 @@
 //    }
 //};
 //
-//// ò·«” ·?”  œÊÿ—›Â ç—Œ‘?
+//// Àú√°√á√ì √°?√ì√ä √è√¶√ò√ë√ù√• ¬ç√ë√é√î?
 //class DoublyCircularLinkedList {
 //private:
 //    WeaponNode* head;
-//    WeaponNode* current; // «‘«—Âùê— »Â ”·«Õ ›⁄·?
+//    WeaponNode* current; // √á√î√á√ë√•¬ù¬ê√ë √à√• √ì√°√á√ç √ù√ö√°?
 //
 //public:
 //    DoublyCircularLinkedList() : head(nullptr), current(nullptr) {}
 //
-//    // «÷«›Â ò—œ‰ ”·«Õ Ãœ?œ
+//    // √á√ñ√á√ù√• Àú√ë√è√§ √ì√°√á√ç √å√è?√è
 //    void addWeapon(int id, string name) {
 //        WeaponNode* newNode = new WeaponNode(id, name);
 //
@@ -43,26 +43,26 @@
 //        }
 //    }
 //
-//    // Õ—ò  »Â ”·«Õ »⁄œ?
+//    // √ç√ëÀú√ä √à√• √ì√°√á√ç √à√ö√è?
 //    void nextWeapon() {
 //        if (current) {
 //            current = current->next;
 //        }
 //    }
 //
-//    // Õ—ò  »Â ”·«Õ ﬁ»·?
+//    // √ç√ëÀú√ä √à√• √ì√°√á√ç √û√à√°?
 //    void prevWeapon() {
 //        if (current) {
 //            current = current->prev;
 //        }
 //    }
 //
-//    // œ—?«›  ”·«Õ ›⁄·?
+//    // √è√ë?√á√ù√ä √ì√°√á√ç √ù√ö√°?
 //    WeaponNode* getCurrentWeapon() {
 //        return current;
 //    }
 //
-//    // ‰„«?‘  „«„ ”·«ÕùÂ«
+//    // √§√£√á?√î √ä√£√á√£ √ì√°√á√ç¬ù√•√á
 //    void displayAll() {
 //        if (!head) return;
 //
@@ -76,7 +76,7 @@
 //    }
 //};
 //
-//// ò·«” »«“?ò‰
+//// Àú√°√á√ì √à√á√í?Àú√§
 //class Player {
 //private:
 //    DoublyCircularLinkedList weapons;
@@ -84,7 +84,7 @@
 //
 //public:
 //    Player() : equippedWeapon(nullptr) {
-//        // „ﬁœ«—œÂ? «Ê·?Â ”·«ÕùÂ«
+//        // √£√û√è√á√ë√è√•? √á√¶√°?√• √ì√°√á√ç¬ù√•√á
 //        weapons.addWeapon(1, "Knife");
 //        weapons.addWeapon(2, "Pistol");
 //        weapons.addWeapon(3, "AK-47");
@@ -93,21 +93,21 @@
 //        equippedWeapon = weapons.getCurrentWeapon();
 //    }
 //
-//    //  €??— ”·«Õ »Â »⁄œ?
+//    // √ä√õ??√ë √ì√°√á√ç √à√• √à√ö√è?
 //    void switchToNextWeapon() {
 //        weapons.nextWeapon();
 //        equippedWeapon = weapons.getCurrentWeapon();
 //        cout << "Switched to: " << equippedWeapon->weaponName << endl;
 //    }
 //
-//    //  €??— ”·«Õ »Â ﬁ»·?
+//    // √ä√õ??√ë √ì√°√á√ç √à√• √û√à√°?
 //    void switchToPrevWeapon() {
 //        weapons.prevWeapon();
 //        equippedWeapon = weapons.getCurrentWeapon();
 //        cout << "Switched to: " << equippedWeapon->weaponName << endl;
 //    }
 //
-//    // ‰„«?‘ ”·«Õ ›⁄·?
+//    // √§√£√á?√î √ì√°√á√ç √ù√ö√°?
 //    void displayCurrentWeapon() {
 //        if (equippedWeapon) {
 //            cout << "Current Weapon: " << equippedWeapon->weaponName
@@ -115,7 +115,7 @@
 //        }
 //    }
 //
-//    // ‰„«?‘  „«„ ”·«ÕùÂ«
+//    // √§√£√á?√î √ä√£√á√£ √ì√°√á√ç¬ù√•√á
 //    void displayAllWeapons() {
 //        weapons.displayAll();
 //    }
